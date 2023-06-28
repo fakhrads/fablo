@@ -143,7 +143,7 @@ useVersion() {
   if [ -n "$version" ]; then
     echo "Updating '$0' to version $version..."
     set +e
-    curl -Lf https://github.com/hyperledger-labs/fablo/releases/download/"$version"/fablo.sh -o "$0" && chmod +x "$0"
+    curl -Lf https://github.com/fakhrads/fablo/releases/download/"$version"/fablo.sh -o "$0" && chmod +x "$0"
   else
     executeOnFabloDocker "fablo:list-versions"
   fi
