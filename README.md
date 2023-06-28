@@ -8,7 +8,7 @@ Fablo supports:
 * RAFT and solo consensus protocols
 * Multiple organizations and channels
 * Chaincode installation and upgrade
-* REST API client for CA and chaincodes ([Fablo REST](https://github.com/softwaremill/fablo-rest))
+* REST API client for CA and chaincodes ([Fablo REST](https://github.com/fakhrads/fablo-rest))
 * [Blockchain Explorer](https://github.com/hyperledger/blockchain-explorer) which can be enabled for each organization
 
 ## See it in action
@@ -42,7 +42,7 @@ To create a local Hyperledger Fabric network with Node.js chaincode and REST API
 ```
 
 After a few minutes the whole network will be set up and running.
-You can check the running nodes via `docker ps` or `docker stats`, and you can query the network with command line (via `cli.org1.example.com` container) or REST API client (via [Fablo REST](https://github.com/softwaremill/fablo-rest)).
+You can check the running nodes via `docker ps` or `docker stats`, and you can query the network with command line (via `cli.org1.example.com` container) or REST API client (via [Fablo REST](https://github.com/fakhrads/fablo-rest)).
 
 ## Basic usage
 
@@ -78,7 +78,7 @@ Good step to start your adventure with Fablo or set up a fast prototype.
 
 Fablo `init` command takes three parameters (the order does not matter):
 * Option `node` makes Fablo to generate a sample Node.js chaincode as well.
-* Option `rest` enables simple REST API with [Fablo REST](https://github.com/softwaremill/fablo-rest) as standalone Docker container.
+* Option `rest` enables simple REST API with [Fablo REST](https://github.com/fakhrads/fablo-rest) as standalone Docker container.
 * Option `dev` enables running peers in dev mode (so the hot reload for chaincode is possible).
 
 Sample command:
@@ -547,9 +547,9 @@ You can find them in `fablo-target/fablo-config/connection-profiles` directory i
 
 ### REST API
 
-Fablo is integrated with simple REST API for CA and chaincodes, supported by [Fablo REST](https://github.com/softwaremill/fablo-rest).
+Fablo is integrated with simple REST API for CA and chaincodes, supported by [Fablo REST](https://github.com/fakhrads/fablo-rest).
 If you want to use it, provide for your organization `"tools": { "fabloRest": true }`.
-Visit the [Fablo REST](https://github.com/softwaremill/fablo-rest) project for more documentation.
+Visit the [Fablo REST](https://github.com/fakhrads/fablo-rest) project for more documentation.
 
 ### Blockchain Explorer
 
@@ -558,6 +558,6 @@ Provide for your organization `"tools": { "explorer": true }`, if you want to us
 
 ## Testimonials
 
-Fablo was originally created at [SoftwareMill](https://softwaremill.com) by [@Hejwo](https://github.com/Hejwo/) and [@dzikowski](https://github.com/dzikowski/).
+Fablo was originally created at [fakhrads](https://fakhrads.com) by [@Hejwo](https://github.com/Hejwo/) and [@dzikowski](https://github.com/dzikowski/).
 In December 2021, Fablo joined [Hyperledger Labs](https://labs.hyperledger.org/).
 

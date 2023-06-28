@@ -14,7 +14,7 @@
     "lint": "eslint . --fix --ext .js",
     "test": "CHAINCODE_LOGGING_LEVEL=DEBUG jest"
   },
-  "author": "SoftwareMill",
+  "author": "fakhrads",
   "dependencies": {
     "fabric-contract-api": "^2.4.2",
     "fabric-shim": "^2.4.2"

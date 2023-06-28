@@ -3018,7 +3018,7 @@ exports[`samples/fablo-config-hlf1.3-2orgs-1chaincode-private-data.json should c
 "#!/usr/bin/env bash
 
 printHelp() {
-  echo \\"Fablo is powered by SoftwareMill\\"
+  echo \\"Fablo is powered by fakhrads\\"
 
   echo \\"\\"
   echo \\"usage: ./fabric-docker.sh <command>\\"

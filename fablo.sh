@@ -2,8 +2,8 @@
 
 set -e
 
-FABLO_VERSION="1.1.0"
-FABLO_IMAGE_NAME="softwaremill/fablo"
+FABLO_VERSION="1.1.2"
+FABLO_IMAGE_NAME="fakhrads/fablo"
 FABLO_IMAGE="$FABLO_IMAGE_NAME:$FABLO_VERSION"
 
 COMMAND="$1"
@@ -47,8 +47,8 @@ printSplash() {
   echo "│         /───────\    │      │   │         ╲        ╱ "
   printf "╵        /         \   └─────'    └──────     '────'    %24s\n" "v$FABLO_VERSION"
   echo "${darkGray}┌┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┐"
-  echo "│ https://fablo.io | created at SoftwareMill | backed by Hyperledger Foundation│"
-  echo "└┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘${end}"
+  echo "│ https://fablo.fakhrads.dev | created at home | backed by Hyperledger Foundation│"
+  echo "└┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┘${end}"
 }
 
 printHelp() {

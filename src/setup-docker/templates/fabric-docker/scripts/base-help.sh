@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 printHelp() {
-  echo "Fablo is powered by SoftwareMill"
+  echo "Fablo is powered by fakhrads"
 
   echo ""
   echo "usage: ./fabric-docker.sh <command>"

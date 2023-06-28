@@ -12,7 +12,7 @@
     "lint": "eslint . --fix --ext .js",
     "test": "CHAINCODE_LOGGING_LEVEL=DEBUG jest"
   },
-  "author": "SoftwareMill",
+  "author": "fakhrads",
   "dependencies": {
     "fabric-contract-api": "~1.4.5",
     "fabric-shim": "~1.4.5"

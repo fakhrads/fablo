@@ -2231,7 +2231,7 @@ exports[`samples/fablo-config-hlf2-1org-1chaincode.json should create proper e2e
 "#!/usr/bin/env bash
 
 printHelp() {
-  echo \\"Fablo is powered by SoftwareMill\\"
+  echo \\"Fablo is powered by fakhrads\\"
 
   echo \\"\\"
   echo \\"usage: ./fabric-docker.sh <command>\\"

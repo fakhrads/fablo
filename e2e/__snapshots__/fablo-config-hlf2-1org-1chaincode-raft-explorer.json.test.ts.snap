@@ -1970,7 +1970,7 @@ services:
 
   fablo-rest.org1.example.com:
     container_name: fablo-rest.org1.example.com
-    image: softwaremill/fablo-rest:\${FABLO_REST_VERSION}
+    image: fakhrads/fablo-rest:\${FABLO_REST_VERSION}
     environment:
       - PORT=8000
       - MSP_ID=Org1MSP
@@ -2362,7 +2362,7 @@ exports[`samples/fablo-config-hlf2-1org-1chaincode-raft-explorer.json should cre
 "#!/usr/bin/env bash
 
 printHelp() {
-  echo \\"Fablo is powered by SoftwareMill\\"
+  echo \\"Fablo is powered by fakhrads\\"
 
   echo \\"\\"
   echo \\"usage: ./fabric-docker.sh <command>\\"

@@ -2317,7 +2317,7 @@ exports[`samples/fablo-config-hlf1.4-1org-1chaincode-raft.json should create pro
 "#!/usr/bin/env bash
 
 printHelp() {
-  echo \\"Fablo is powered by SoftwareMill\\"
+  echo \\"Fablo is powered by fakhrads\\"
 
   echo \\"\\"
   echo \\"usage: ./fabric-docker.sh <command>\\"
